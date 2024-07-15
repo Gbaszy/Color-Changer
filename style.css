@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+#color-box{
+    width: 500px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+#change-color-btn{
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 10px;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+#change-color-btn:hover{
+    color: black;
+    background: white;
+}
